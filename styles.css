@@ -24,8 +24,7 @@ nav {
   align-items: center;
   padding: 15px 0;
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3);
-
-  }
+}
 
 nav ul {
   text-align: center;
@@ -46,7 +45,7 @@ a {
   font-size: 1.2rem;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   color: palevioletred;
 }
@@ -79,67 +78,62 @@ h1 {
   margin-left: 120px;
 }*/
 
-.container-casas-venta{
+.container-casas-venta {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 250px 50px 250px 50px;
   margin-bottom: 70px;
   justify-items: center;
   row-gap: 25px;
-  
 }
 
-.titulo-casa1{
+.titulo-casa1 {
   grid-column: 1/2;
   grid-row: 2/3;
   align-self: self-end;
 }
 
-.imagen-casa1{
+.imagen-casa1 {
   grid-column: 1/2;
   grid-row: 1/2;
   width: 69%;
 }
 
-.titulo-casa2{
+.titulo-casa2 {
   grid-column: 2/3;
   grid-row: 2/3;
   align-self: self-end;
-
-  
 }
 
-.imagen-casa2{
+.imagen-casa2 {
   grid-column: 2/3;
   grid-row: 1/2;
   width: 70%;
 }
 
-.titulo-casa3{
+.titulo-casa3 {
   grid-column: 1/2;
   grid-row: 4/5;
   align-self: self-end;
 }
 
-.imagen-casa3{
+.imagen-casa3 {
   grid-column: 1/2;
   grid-row: 3/4;
   width: 70%;
 }
 
-.titulo-casa4{
+.titulo-casa4 {
   grid-column: 2/3;
   grid-row: 4/5;
   align-self: self-end;
 }
 
-.imagen-casa4{
+.imagen-casa4 {
   grid-column: 2/3;
   grid-row: 3/4;
   width: 70%;
 }
-
-
 
 footer {
   background-color: #e6e4e8;
@@ -149,12 +143,11 @@ footer {
   justify-content: space-around;
 }
 
-.footer-text1{
+.footer-text1 {
   font-size: 1.7rem;
   font-weight: bold;
   color: palevioletred;
 }
-
 
 /*.redes {
   margin-left: 120px;
@@ -177,12 +170,12 @@ footer {
 
 /*nosotros nosotros nosotros nosotros nosotros nosotros nosotros*/
 
-.nosotros{
+.nosotros {
   display: flex;
   flex-direction: column;
   padding: 0 60px;
   gap: 30px;
-  margin-bottom: 70px
+  margin-bottom: 70px;
 }
 
 .img-marcelo,
@@ -194,7 +187,7 @@ footer {
 
 .img-marcelo p,
 .img-raul p,
-.img-marcela p{
+.img-marcela p {
   margin-left: 0;
   text-align: left;
   padding: 0 40px;
@@ -202,12 +195,10 @@ footer {
 
 .img-marcelo h3,
 .img-raul h3,
-.img-marcela h3{
+.img-marcela h3 {
   padding: 0 40px;
   font-size: 2rem;
-
 }
-
 
 .img-marcelo img {
   width: 30%;
