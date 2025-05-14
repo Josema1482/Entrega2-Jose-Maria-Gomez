@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.logo-inmo {
+  /*margin-left: 40px;
+  margin-top: 30px;*/
+  width: 5%;
+}
+
+nav {
+  /*border: 1px solid black;
+  width: 11%;
+  
+  margin-left: 40px;
+  margin-top: 40px;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3);
+
+  }
+
+nav ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: palevioletred;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 60px;
+}
+
+.subtitulo-pag-principal {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.subtitulo-casas-enventa {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/*.casas {
+  width: 70%;
+  margin-left: 120px;
+  margin-bottom: 30px;
+}*/
+
+/*.titulo-casas {
+  margin-left: 120px;
+}*/
+
+.container-casas-venta{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 50px 250px 50px;
+  margin-bottom: 70px;
+  justify-items: center;
+  row-gap: 25px;
+  
+}
+
+.titulo-casa1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  align-self: self-end;
+}
+
+.imagen-casa1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 69%;
+}
+
+.titulo-casa2{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: self-end;
+
+  
+}
+
+.imagen-casa2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 70%;
+}
+
+.titulo-casa3{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  align-self: self-end;
+}
+
+.imagen-casa3{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  width: 70%;
+}
+
+.titulo-casa4{
+  grid-column: 2/3;
+  grid-row: 4/5;
+  align-self: self-end;
+}
+
+.imagen-casa4{
+  grid-column: 2/3;
+  grid-row: 3/4;
+  width: 70%;
+}
+
+
+
+footer {
+  background-color: #e6e4e8;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-text1{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: palevioletred;
+}
+
+
+/*.redes {
+  margin-left: 120px;
+  margin-top: 15px;
+}*/
+
+.subtitulo-servicios {
+  text-align: center;
+}
+
+.texto-servicios {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-servicios {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+/*nosotros nosotros nosotros nosotros nosotros nosotros nosotros*/
+
+.nosotros{
+  display: flex;
+  flex-direction: column;
+  padding: 0 60px;
+  gap: 30px;
+  margin-bottom: 70px
+}
+
+.img-marcelo,
+.img-raul,
+.img-marcela {
+  display: flex;
+  align-items: center;
+}
+
+.img-marcelo p,
+.img-raul p,
+.img-marcela p{
+  margin-left: 0;
+  text-align: left;
+  padding: 0 40px;
+}
+
+.img-marcelo h3,
+.img-raul h3,
+.img-marcela h3{
+  padding: 0 40px;
+  font-size: 2rem;
+
+}
+
+
+.img-marcelo img {
+  width: 30%;
+}
+
+.img-raul img {
+  width: 30%;
+  /*margin-top: 30px;*/
+}
+
+.img-marcela img {
+  width: 30%;
+  /*margin-top: 30px;*/
+}
+
+/*.img-marcela h3 {
+  text-align: left;
+  margin-left: 445px;
+}
+
+.img-marcelo h3 {
+  text-align: left;
+  margin-left: 445px;
+}
+
+.img-raul h3 {
+  text-align: left;
+  margin-left: 445px;
+}*/
+
+/*en venta en venta en venta en venta en venta en venta en venta*/
+
+.img-casa1,
+.img-casa2,
+.img-casa3,
+.img-casa4 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.img-casa1 img,
+.img-casa2 img,
+.img-casa3 img,
+.img-casa4 img {
+  width: 60%;
+}
+
+.img-casa1 p,
+.img-casa2 p,
+.img-casa3 p,
+.img-casa4 p {
+  color: crimson;
+  font-size: 1.6rem;
+}
+
+.img-casa4 {
+  margin-bottom: 60px;
+}
+
+/*contacto contacto contacto contacto contacto contacto contacto*/
+
+.formulario {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.formulario form {
+  display: inline-block;
+  text-align: left;
+  width: 400px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario textarea {
+  min-height: 100px;
+}
+
+.formulario .boton {
+  width: 30%;
+  margin-bottom: 60px;
+}
+
+/*servicios servicios servicios servicios servicios servicios servicios*/
+
+.todoslosservicios {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.servicio1 img,
+.servicio2 img,
+.servicio3 img {
+  width: 50%;
+}
+
+.servicio1 p,
+.servicio2 p,
+.servicio3 p {
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-bottom: 30px;
+}
+
+.servicio1 h3,
+.servicio2 h3,
+.servicio3 h3 {
+  margin-bottom: 15px;
+  text-align: left;
+  margin-left: 315px;
+  font-size: 1.7rem;
+  color: burlywood;
+}
