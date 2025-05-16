@@ -66,70 +66,93 @@
     padding: 0 20px;
   }
 
-
-.titulo-casa1,
-.titulo-casa2,
-.titulo-casa3,
-.titulo-casa4 {
-  font-size: 1.3rem;
-  align-self: self-start;
-  padding-left: 20px;
-}
-
-/* SERVICIOS */
-.subtitulo-servicios {
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.texto-servicios {
-  font-size: 0.95rem;
-  text-align: center;
-  padding: 0 20px;
-}
-
-.video-servicios {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-
-.video-servicios iframe {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-}
-
-/* FOOTER */
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 20px 10px;
-  background-color: #e6e4e8;
-}
-
-.footer-text1 {
-  font-size: 1.9rem;
-  color: palevioletred;
-  text-align: center;
-}
-
-.footer-text2 {
-  font-size: 0.9rem;
-  text-align: center;
-}
-
-.redes {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.redes img {
-  width: 37px;
-  height: auto;
-}
+  .titulo-casa1,
+  .titulo-casa2,
+  .titulo-casa3,
+  .titulo-casa4 {
+    font-size: 1.3rem;
+    align-self: self-start;
+    padding-left: 20px;
   }
+
+  /* SERVICIOS */
+  .subtitulo-servicios {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .texto-servicios {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .video-servicios {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .video-servicios iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  /* FOOTER */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 10px;
+    background-color: #e6e4e8;
+  }
+
+  .footer-text1 {
+    font-size: 1.9rem;
+    color: palevioletred;
+    text-align: center;
+  }
+
+  .footer-text2 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .redes img {
+    width: 37px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .imagen-casa1 {
+    width: 94%;
+  }
+
+  .imagen-casa2,
+  .imagen-casa3,
+  .imagen-casa4 {
+    width: 95%;
+  }
+
+  .titulo-casa1,
+  .titulo-casa2,
+  .titulo-casa3,
+  .titulo-casa4 {
+    align-self: self-start;
+  }
+
+  .container-casas-venta {
+    row-gap: 10px;
+    margin-bottom: 55px;
+  }
+}
