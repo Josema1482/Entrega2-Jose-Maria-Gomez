@@ -9,11 +9,13 @@
   <body>
     <header>
       <nav>
-        <img
-          class="logo-inmo"
-          src="img/logo-inmobiliaria.png"
-          alt="logo inmobiliaria"
-        />
+        <a href="./index.html">
+          <img
+            src="img/logo-inmobiliaria.png"
+            alt="logo inmobiliaria"
+            class="logo-inmo"
+          />
+        </a>
 
         <ul>
           <li><a href="./index.html">Inicio</a></li>
@@ -35,23 +37,32 @@
     </header>
     <main>
       <section class="formulario">
-        <form action="" method="get">
-          <label for="nombre">Nombre y Apellido:</label>
-          <br />
-          <input type="text" name="" id="nombre" />
-          <br />
-          <label for="email">Email:</label>
-          <br />
-          <input type="email" name="" id="email" />
-          <br />
-          <label for="tel">Telefono:</label>
-          <br />
-          <input type="tel" name="" id="tel" />
-          <br />
-          <label for="">Mensaje:</label>
-          <br />
-          <textarea name="" id=""></textarea>
-          <br />
+        <form action="" method="get" class="form">
+          <div class="form-name">
+            <label for="nombre">Nombre y Apellido:</label>
+            <br />
+            <input type="text" name="" id="nombre" />
+          </div>
+          <div class="form-email">
+            <label for="email">Email:</label>
+            <br />
+            <input type="email" name="" id="email" />
+          </div>
+          <div class="form-telefono">
+            <label for="tel">Telefono:</label>
+            <br />
+            <input type="tel" name="" id="tel" />
+          </div>
+          <div class="form-direccion">
+            <label for="text">Dirección:</label>
+            <br />
+            <input type="text" name="" id="email" />
+          </div>
+          <div class="form-mensaje">
+            <label for="">Mensaje:</label>
+            <br />
+            <textarea name="" id=""></textarea>
+          </div>
           <input class="boton" type="submit" value="Enviar" />
         </form>
       </section>
