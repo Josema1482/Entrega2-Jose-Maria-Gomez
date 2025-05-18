@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+header nav a {
+  text-align: center;
+}
+
 .logo-inmo {
   width: 45%;
 }
@@ -230,6 +234,7 @@ footer {
   justify-content: center;
   margin: 80px 0;
 }
+
 .formulario .form {
   display: grid;
   grid-template-columns: 350px 350px;
@@ -245,6 +250,7 @@ footer {
 .form-name input {
   width: 100%;
   margin-top: 15px;
+  padding: 10px;
 }
 
 .form-email {
@@ -256,6 +262,7 @@ footer {
 .form-email input {
   width: 100%;
   margin-top: 10px;
+  padding: 10px;
 }
 
 .form-telefono {
@@ -267,6 +274,7 @@ footer {
 .form-telefono input {
   width: 100%;
   margin-top: 10px;
+  padding: 10px;
 }
 
 .form-direccion {
@@ -279,6 +287,7 @@ footer {
 .form-direccion input {
   width: 100%;
   margin-top: 10px;
+  padding: 10px;
 }
 
 .form-mensaje {

@@ -17,10 +17,13 @@
     padding: 10px;
   }
 
+  header nav a {
+    text-align: center;
+  }
+
   .logo-inmo {
-    width: 17%;
-    max-width: 200px;
-    height: auto;
+    width: 45%;
+    text-align: center;
   }
 
   nav ul {
