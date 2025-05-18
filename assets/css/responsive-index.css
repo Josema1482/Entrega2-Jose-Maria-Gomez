@@ -8,7 +8,6 @@
 }
 
 @media (max-width: 480px) {
-  /* NAV */
   nav {
     display: flex;
     flex-direction: column;
@@ -38,11 +37,11 @@
     font-size: 1rem;
   }
 
-  /* TÍTULO PRINCIPAL */
   h1 {
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
     margin: 20px 0 10px;
+    font-weight: bold;
   }
 
   .subtitulo-pag-principal {
