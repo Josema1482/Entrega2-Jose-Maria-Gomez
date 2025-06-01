@@ -8,12 +8,12 @@
     @include text-center;
 
     img {
-      width: $enventa-image-width;
+      width: 85%;
     }
 
     p {
-      color: $text-color;
-      font-size: $font-size;
+      color: crimson;
+      font-size: 1.6rem;
     }
   }
 }

@@ -1,7 +1,7 @@
 .todoslosservicios {
   @include flex-center;
-  gap: $gap-size;
-  margin: $margin-y $margin-x;
+  gap: 20px;
+  margin: 70px 50px;
 
   .servicio1,
   .servicio2,
@@ -19,7 +19,7 @@
     }
 
     img {
-      width: $image-width;
+      width: 70%;
     }
   }
 }

@@ -1,3 +1,4 @@
+/*RESPONSIVE*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 * {
   font-family: "Oswald", sans-serif;
@@ -64,12 +65,12 @@ h1 {
   margin-bottom: 70px;
   justify-items: center;
   row-gap: 40px;
-}
-.container-casas-venta .titulo-casa1,
-.container-casas-venta .titulo-casa2,
-.container-casas-venta .titulo-casa3,
-.container-casas-venta .titulo-casa4 {
-  align-self: self-end;
+  /*.titulo-casa1,
+  .titulo-casa2,
+  .titulo-casa3,
+  .titulo-casa4 {
+    align-self: self-end;
+  }*/
 }
 .container-casas-venta .imagen-casa1,
 .container-casas-venta .imagen-casa2,
@@ -140,7 +141,7 @@ footer .footer-text1 {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin: 50px 70px;
+  margin: 70px 50px;
 }
 .todoslosservicios .servicio1,
 .todoslosservicios .servicio2,
@@ -303,7 +304,7 @@ footer .footer-text1 {
 .nosotros .img-raul div h3,
 .nosotros .img-marcela div h3 {
   padding: 0 40px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .nosotros .img-marcelo div p,
 .nosotros .img-raul div p,

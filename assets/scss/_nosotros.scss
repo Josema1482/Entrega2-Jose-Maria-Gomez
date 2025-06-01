@@ -1,8 +1,8 @@
 .nosotros {
   @include nosotros-flex-column;
-  padding: 0 $nosotros-padding-x;
-  gap: $nosotros-gap-size;
-  margin-bottom: $nosotros-margin-bottom;
+  padding: 0 60px;
+  gap: 30px;
+  margin-bottom: 70px;
 
   .img-marcelo,
   .img-raul,
@@ -10,13 +10,13 @@
     @include nosotros-flex-center;
 
     img {
-      width: $nosotros-image-width;
+      width: 30%;
     }
 
     div {
       h3 {
-        padding: 0 $nosotros-text-padding;
-        font-size: $font-size;
+        padding: 0 40px;
+        font-size: 2rem;
       }
 
       p {

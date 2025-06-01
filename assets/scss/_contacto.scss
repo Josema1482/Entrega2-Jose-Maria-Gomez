@@ -16,7 +16,7 @@
     .form-email {
       grid-column: 2/3;
       grid-row: 1/2;
-      margin-left: $form-margin-x;
+      margin-left: 25px;
 
       input {
         @include form-full-width-input;
@@ -27,7 +27,7 @@
     .form-telefono {
       grid-column: 1/2;
       grid-row: 2/3;
-      margin-top: $form-gap-size;
+      margin-top: 30px;
 
       input {
         @include form-full-width-input;
@@ -38,8 +38,8 @@
     .form-direccion {
       grid-column: 2/3;
       grid-row: 2/3;
-      margin-left: $form-margin-x;
-      margin-top: $form-gap-size;
+      margin-left: 25px;
+      margin-top: 30px;
 
       input {
         @include form-full-width-input;
@@ -54,8 +54,8 @@
       justify-self: center;
 
       textarea {
-        width: $textarea-width;
-        height: $textarea-height;
+        width: 690px;
+        height: 175px;
         margin-top: 10px;
       }
     }
@@ -63,7 +63,7 @@
     .boton {
       grid-column: 2/3;
       grid-row: 4/5;
-      width: $form-button-width;
+      width: 35%;
       margin-top: 90px;
       justify-self: end;
     }

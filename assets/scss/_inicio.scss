@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: $spacing 0;
+    padding: 15px 0;
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3);
 
     a {
@@ -65,18 +65,18 @@ h1 {
 .container-casas-venta {
   @include grid-layout;
 
-  .titulo-casa1,
+  /*.titulo-casa1,
   .titulo-casa2,
   .titulo-casa3,
   .titulo-casa4 {
     align-self: self-end;
-  }
+  }*/
 
   .imagen-casa1,
   .imagen-casa2,
   .imagen-casa3,
   .imagen-casa4 {
-    width: $image-width;
+    width: 70%;
   }
 
   .titulo-casa1 {
@@ -121,8 +121,8 @@ h1 {
 }
 
 footer {
-  background-color: $footer-bg;
-  padding: $spacing;
+  background-color: #e6e4e8;
+  padding: 15px;
   @include flex-center;
   justify-content: space-around;
 
