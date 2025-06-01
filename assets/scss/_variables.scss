@@ -1,0 +1,117 @@
+$font-family: "Oswald", sans-serif;
+$primary-color: black;
+$secondary-color: palevioletred;
+$footer-bg: #e6e4e8;
+$spacing: 15px;
+$image-width: 70%;
+
+$primary-color-services: burlywood;
+$hover-color: rgb(164, 38, 38);
+$border-width: 2px;
+$hover-border-width: 4px;
+$padding: 35px;
+$margin-x: 70px;
+$margin-y: 50px;
+$gap-size: 20px;
+
+$form-margin-y: 80px;
+$form-margin-x: 25px;
+$input-padding: 10px;
+$form-gap-size: 30px;
+$form-button-width: 35%;
+$textarea-width: 690px;
+$textarea-height: 175px;
+
+$margin-top: 60px;
+$margin-bottom: 60px;
+$row-gap: 35px;
+$enventa-image-width: 85%;
+$text-color: crimson;
+$font-size: 1.6rem;
+
+$nosotros-padding-x: 60px;
+$nosotros-gap-size: 30px;
+$nosotros-margin-bottom: 70px;
+$nosotros-text-padding: 40px;
+$nosotros-font-size: 2rem;
+$nosotros-image-width: 30%;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 50px 250px 50px;
+  margin-bottom: 70px;
+  justify-items: center;
+  row-gap: 40px;
+}
+
+@mixin text-center {
+  text-align: center;
+}
+
+@mixin card-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $padding;
+  border: $border-width solid $primary-color;
+  width: 30%;
+  transition: border 0.6s ease 0s;
+
+  &:hover {
+    border: $hover-border-width solid $hover-color;
+    cursor: pointer;
+    border-radius: 20px;
+    transform: translateY(-10px);
+    background-color: rgb(247, 243, 237);
+  }
+}
+
+@mixin form-grid-layout {
+  display: grid;
+  justify-content: center;
+  margin: $margin-y 0;
+}
+
+@mixin form-grid {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 70px 70px 200px 70px;
+  align-items: center;
+}
+
+@mixin form-full-width-input {
+  width: 100%;
+  margin-top: 15px;
+  padding: $input-padding;
+}
+
+@mixin enventa-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+  row-gap: $row-gap;
+}
+
+@mixin nosotros-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin nosotros-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin nosotros-text-style {
+  text-align: left;
+  padding: 0 $nosotros-text-padding;
+}

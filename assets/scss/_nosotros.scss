@@ -1,0 +1,28 @@
+.nosotros {
+  @include nosotros-flex-column;
+  padding: 0 $nosotros-padding-x;
+  gap: $nosotros-gap-size;
+  margin-bottom: $nosotros-margin-bottom;
+
+  .img-marcelo,
+  .img-raul,
+  .img-marcela {
+    @include nosotros-flex-center;
+
+    img {
+      width: $nosotros-image-width;
+    }
+
+    div {
+      h3 {
+        padding: 0 $nosotros-text-padding;
+        font-size: $font-size;
+      }
+
+      p {
+        @include nosotros-text-style;
+        margin-left: 0;
+      }
+    }
+  }
+}

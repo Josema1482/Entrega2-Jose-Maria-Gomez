@@ -1,0 +1,71 @@
+.formulario {
+  @include form-grid-layout;
+
+  .form {
+    @include form-grid;
+
+    .form-name {
+      grid-column: 1/2;
+      grid-row: 1/2;
+
+      input {
+        @include form-full-width-input;
+      }
+    }
+
+    .form-email {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      margin-left: $form-margin-x;
+
+      input {
+        @include form-full-width-input;
+        margin-top: 10px;
+      }
+    }
+
+    .form-telefono {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      margin-top: $form-gap-size;
+
+      input {
+        @include form-full-width-input;
+        margin-top: 10px;
+      }
+    }
+
+    .form-direccion {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      margin-left: $form-margin-x;
+      margin-top: $form-gap-size;
+
+      input {
+        @include form-full-width-input;
+        margin-top: 10px;
+      }
+    }
+
+    .form-mensaje {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      margin-top: 90px;
+      justify-self: center;
+
+      textarea {
+        width: $textarea-width;
+        height: $textarea-height;
+        margin-top: 10px;
+      }
+    }
+
+    .boton {
+      grid-column: 2/3;
+      grid-row: 4/5;
+      width: $form-button-width;
+      margin-top: 90px;
+      justify-self: end;
+    }
+  }
+}

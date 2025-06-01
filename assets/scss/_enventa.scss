@@ -1,0 +1,19 @@
+.casasenventa {
+  @include enventa-grid-layout;
+
+  .img-casa1,
+  .img-casa2,
+  .img-casa3,
+  .img-casa4 {
+    @include text-center;
+
+    img {
+      width: $enventa-image-width;
+    }
+
+    p {
+      color: $text-color;
+      font-size: $font-size;
+    }
+  }
+}
