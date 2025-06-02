@@ -1,0 +1,95 @@
+@include mobile {
+  @include navResponsive480;
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 10px;
+    font-weight: bold;
+  }
+
+  .subtitulo-pag-principal {
+    font-size: 0.95rem;
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .subtitulo-casas-enventa {
+    font-size: 1.2rem;
+    margin: 30px 0 15px;
+  }
+
+  .container-casas-venta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .casas {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  .titulo-casa1,
+  .titulo-casa2,
+  .titulo-casa3,
+  .titulo-casa4 {
+    font-size: 1.3rem;
+    align-self: self-start;
+    padding-left: 35px;
+  }
+
+  .subtitulo-servicios {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  .texto-servicios {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .video-servicios {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    iframe {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+  }
+
+  @include footerResponsive480;
+}
+
+@include tablet {
+  .container-casas-venta {
+    row-gap: 10px;
+    margin-bottom: 55px;
+
+    .imagen-casa1 {
+      width: 94%;
+    }
+
+    .imagen-casa2,
+    .imagen-casa3,
+    .imagen-casa4 {
+      width: 95%;
+    }
+
+    .titulo-casa1,
+    .titulo-casa2,
+    .titulo-casa3,
+    .titulo-casa4 {
+      align-self: self-start;
+    }
+  }
+}

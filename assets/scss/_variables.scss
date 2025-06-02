@@ -96,3 +96,79 @@ $hover-color: rgb(164, 38, 38);
     @content;
   }
 }
+
+@mixin navResponsive480 {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  header {
+    nav {
+      a {
+        text-align: center;
+      }
+    }
+  }
+
+  .logo-inmo {
+    width: 45%;
+    text-align: center;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      padding: 0;
+
+      li {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@mixin footerResponsive480 {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 10px;
+    background-color: #e6e4e8;
+  }
+
+  .footer-text1 {
+    font-size: 1.9rem;
+    color: palevioletred;
+    text-align: center;
+  }
+
+  .footer-text2 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .redes img {
+    width: 37px;
+    height: auto;
+  }
+}
+@mixin input480 {
+  margin-top: 5px;
+  padding: 5px;
+}
