@@ -571,5 +571,15 @@ footer .footer-text1 {
     justify-self: center;
   }
 }
+@media (max-width: 480px) {
+  .casasenventa {
+    display: flex;
+    flex-direction: column;
+  }
+  .subtitulo-pag-principal {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
