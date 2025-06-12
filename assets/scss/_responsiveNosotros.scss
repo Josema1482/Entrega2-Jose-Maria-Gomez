@@ -1,0 +1,50 @@
+@include mobile {
+  .subtitulo-casas-enventa {
+    font-size: 2rem;
+  }
+  .nosotros {
+    .img-marcelo {
+      flex-direction: column;
+      img {
+        width: 75%;
+      }
+
+      div {
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .img-raul {
+      flex-direction: column;
+      img {
+        width: 75%;
+      }
+      div {
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .img-marcela {
+      flex-direction: column;
+      img {
+        width: 75%;
+      }
+      div {
+        h3 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

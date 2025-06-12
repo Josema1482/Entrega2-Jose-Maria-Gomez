@@ -474,8 +474,9 @@ footer .footer-text1 {
     font-weight: bold;
   }
   .subtitulo-pag-principal {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
   }
   .formulario {
     display: flex;
@@ -579,6 +580,70 @@ footer .footer-text1 {
   .subtitulo-pag-principal {
     padding-left: 40px;
     padding-right: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .todoslosservicios {
+    flex-direction: column;
+  }
+  .todoslosservicios .servicio1 {
+    width: 95%;
+  }
+  .todoslosservicios .servicio1 img {
+    width: 90%;
+  }
+  .todoslosservicios .servicio2 {
+    width: 95%;
+  }
+  .todoslosservicios .servicio2 img {
+    width: 90%;
+  }
+  .todoslosservicios .servicio3 {
+    width: 95%;
+  }
+  .todoslosservicios .servicio3 img {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .subtitulo-casas-enventa {
+    font-size: 2rem;
+  }
+  .nosotros .img-marcelo {
+    flex-direction: column;
+  }
+  .nosotros .img-marcelo img {
+    width: 75%;
+  }
+  .nosotros .img-marcelo div h3 {
+    text-align: center;
+  }
+  .nosotros .img-marcelo div p {
+    text-align: center;
+  }
+  .nosotros .img-raul {
+    flex-direction: column;
+  }
+  .nosotros .img-raul img {
+    width: 75%;
+  }
+  .nosotros .img-raul div h3 {
+    text-align: center;
+  }
+  .nosotros .img-raul div p {
+    text-align: center;
+  }
+  .nosotros .img-marcela {
+    flex-direction: column;
+  }
+  .nosotros .img-marcela img {
+    width: 75%;
+  }
+  .nosotros .img-marcela div h3 {
+    text-align: center;
+  }
+  .nosotros .img-marcela div p {
+    text-align: center;
   }
 }
 
