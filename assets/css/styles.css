@@ -529,7 +529,7 @@ footer .footer-text1 {
     margin-top: 0;
   }
   .formulario .form .form-mensaje textarea {
-    width: 250px;
+    width: 265px;
   }
   .formulario .form .boton {
     margin-top: 5px;
@@ -617,9 +617,11 @@ footer .footer-text1 {
   }
   .nosotros .img-marcelo div h3 {
     text-align: center;
+    padding: 0;
   }
   .nosotros .img-marcelo div p {
     text-align: center;
+    padding: 0;
   }
   .nosotros .img-raul {
     flex-direction: column;
@@ -629,9 +631,11 @@ footer .footer-text1 {
   }
   .nosotros .img-raul div h3 {
     text-align: center;
+    padding: 0;
   }
   .nosotros .img-raul div p {
     text-align: center;
+    padding: 0;
   }
   .nosotros .img-marcela {
     flex-direction: column;
@@ -641,9 +645,11 @@ footer .footer-text1 {
   }
   .nosotros .img-marcela div h3 {
     text-align: center;
+    padding: 0;
   }
   .nosotros .img-marcela div p {
     text-align: center;
+    padding: 0;
   }
 }
 
